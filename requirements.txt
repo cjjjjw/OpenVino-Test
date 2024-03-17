@@ -4,6 +4,5 @@
 # Base ------------------------------------------------------------------------
 openvino
 numba
-collections
 opencv-python
 opencv-contrib-python
