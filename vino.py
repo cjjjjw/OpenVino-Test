@@ -218,6 +218,7 @@ class Vino(Colors):
 
 
 if __name__ == '__main__':
+    #替换IR模型的路径
     model_path, weights_path = "/home/nuc2/PycharmProjects/yolov5-master/weights/best_bucket.xml", "/home/nuc2/PycharmProjects/yolov5-master/weights/best_bucket.bin"
     confidence = 0.7
     vino1 = Vino(model_path, weights_path, confidence)
