@@ -1,0 +1,9 @@
+#OpenVino-Test requirements
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+openvino
+numba
+collections
+opencv-python
+opencv-contrib-python
